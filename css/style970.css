@@ -1,0 +1,29 @@
+/*main*/
+div.all_wrap div.head_wrap div.head_box div.logo_wrap a.logo{
+    width: 192px;
+    height: 121px;
+    margin: 29px 27px 0 0;
+}
+div.all_wrap div.head_wrap div.head_box div.slogan_wrap div.slogan {
+    height: 73px;
+    padding: 25px 0 0 28px;
+}
+div.all_wrap div.menu_wrap {
+    height: 61px;
+}
+div.all_wrap div.menu_wrap div.menu_box ul.head_menu li {
+    height: 61px;
+}
+div.all_wrap div.menu_wrap div.menu_box ul.head_menu li a {
+    line-height: 61px;
+    font-size: 16px;
+    padding: 0 26px;
+}
+/*Слайдер*/
+div.all_wrap div.slider_wrap div.owl-carousel:after,
+div.all_wrap div.slider_wrap div.owl-carousel:before {
+    width: 0;
+}
+div.all_wrap div.slider_wrap div.owl-carousel div.item div.slide_text {
+    left: 3%;
+}

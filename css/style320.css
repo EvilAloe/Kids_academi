@@ -1,0 +1,169 @@
+/*main*/
+div.all_wrap div.head_wrap {
+    padding: 5px;
+}
+div.all_wrap div.head_wrap div.head_box {
+    height: 100px;
+}
+div.all_wrap div.head_wrap div.head_box div.logo_wrap a.logo{
+    width: 108px;
+    height: 65px;
+    margin: 20px 11px 0 0;
+}
+div.all_wrap div.head_wrap div.head_box div.slogan_wrap {
+    width: 50%;
+    display: block;
+    float: right;
+}
+div.all_wrap div.head_wrap div.head_box div.slogan_wrap div.slogan {
+    height: 30px;
+    padding: 0;
+    font-size: 13px;
+    line-height: 17px;
+    margin: 10px 0 0 0;
+    width: 170px;
+    border: none;
+    float: right;
+}
+div.all_wrap div.head_wrap div.head_box div.contacts_wrap {
+    display: block;
+    width: 50%;
+    text-align: right;
+}
+div.all_wrap div.head_wrap div.head_box div.contacts_wrap div.contacts_box {
+    width: 168px;
+    margin-top: -53px;
+    float: right;
+}
+div.all_wrap div.head_wrap div.head_box div.contacts_wrap div.contacts_box div.phone {
+    font-size: 22px;
+    letter-spacing: -0.7px;
+    padding-bottom: 5px;
+}
+div.all_wrap div.head_wrap div.head_box div.contacts_wrap div.contacts_box a.maps_link {
+    display: none;
+}
+div.all_wrap div.head_wrap div.head_box div.contacts_wrap div.contacts_box a.recall_btn {
+    height: 27px;
+    font-size: 16px;
+    line-height: 26px;
+}
+div.all_wrap div.menu_wrap {
+    height: 39px;
+}
+div.all_wrap div.menu_wrap div.menu_box div.menu_overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index:500;
+    cursor: pointer;
+    display: none;
+}
+div.all_wrap div.menu_wrap div.menu_box ul.head_menu {
+    padding: 0 0 100px 0;
+    margin: 0;
+    text-align: left;
+    width: 77%;
+    background: rgba(0,0,0,0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:501;
+    display: none;
+}
+div.all_wrap div.menu_wrap div.menu_box ul.head_menu:before {
+    content: 'Меню';
+    font-weight: 300;
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 34px 0 30px 15px;
+    display: block;
+}
+div.all_wrap div.menu_wrap div.menu_box ul.head_menu:after {
+    content: '';
+    width: 50px;
+    height: 2px;
+    position: absolute;
+    background: #ff6f0d;
+    top: 66px;
+    left: 15px;
+}
+div.all_wrap div.menu_wrap div.menu_box ul.head_menu li {
+    height: auto;
+    margin-left: 0;
+    display: block;
+    background: transparent;
+    padding: 0 15px;
+}
+div.all_wrap div.menu_wrap div.menu_box ul.head_menu li a {
+    display: block;
+    line-height: 45px;
+    padding: 0;
+    border-bottom: 1px solid #010102;
+    border-top: 1px solid #161514;
+    position: relative;
+}
+div.all_wrap div.menu_wrap div.menu_box ul.head_menu li a:before {
+    content: "";
+    width: 15px;
+    height: 45px;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: -15px;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+div.all_wrap div.menu_wrap div.menu_box ul.head_menu li a:after {
+    content: "";
+    width: 0px;
+    height: 45px;
+    background: transparent;
+    background: url(../img/arrow_menu.png) left center no-repeat #ff6f0d;
+    position: absolute;
+    top: 0;
+    right: -15px;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+div.all_wrap div.menu_wrap div.menu_box ul.head_menu li:first-child {
+    border-top: none;
+}
+div.all_wrap div.menu_wrap div.menu_box ul.head_menu li:last-child {
+    border-bottom: none;
+}
+div.all_wrap div.menu_wrap div.menu_box ul.head_menu li a:hover {
+    background: #ff6f0d;
+}
+div.all_wrap div.menu_wrap div.menu_box ul.head_menu li a:hover:before {
+    background: #ff6f0d;
+}
+div.all_wrap div.menu_wrap div.menu_box ul.head_menu li a:hover:after {
+    width: 30px;
+}
+div.all_wrap div.menu_wrap div.menu_box div.show_menu {
+    display: block;
+}
+/*Слайдер*/
+div.all_wrap div.slider_wrap div.owl-carousel:after,
+div.all_wrap div.slider_wrap div.owl-carousel:before {
+    width: 0;
+}
+div.all_wrap div.slider_wrap div.owl-carousel div.item div.slide_text {
+    left: 3%;
+}
+div.all_wrap div.slider_wrap div.owl-carousel div.item div.slide_text div.title {
+    font-size: 14px;
+}
+div.all_wrap div.slider_wrap div.owl-carousel div.item div.slide_text div.text {
+    font-size: 10px;
+}
