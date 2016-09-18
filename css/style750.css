@@ -1,0 +1,60 @@
+/*main*/
+div.all_wrap div.head_wrap div.head_box {
+    height: 128px;
+}
+div.all_wrap div.head_wrap div.head_box div.logo_wrap a.logo{
+    width: 160px;
+    height: 100px;
+    margin: 13px 15px 0 0;
+}
+div.all_wrap div.head_wrap div.head_box div.slogan_wrap div.slogan {
+    height: 51px;
+    padding: 14px 0 0 22px;
+    font-size: 17.38px;
+    line-height: 17px;
+    margin: 31px 0 0 0;
+    width: 135px;
+}
+div.all_wrap div.head_wrap div.head_box div.contacts_wrap div.contacts_box {
+    width: 188px;
+    margin-top: 29px;
+}
+div.all_wrap div.head_wrap div.head_box div.contacts_wrap div.contacts_box div.phone {
+    font-size: 24.63px;
+    letter-spacing: -0.7px;
+}
+div.all_wrap div.head_wrap div.head_box div.contacts_wrap div.contacts_box a.maps_link {
+    font-size: 10.94px;
+    margin: 4px 0 5px 0;
+}
+div.all_wrap div.head_wrap div.head_box div.contacts_wrap div.contacts_box a.recall_btn {
+    height: 25px;
+    font-size: 13px;
+    line-height: 24px;
+}
+div.all_wrap div.menu_wrap {
+    height: 46px;
+    border-top: 1px solid #98c290;
+}
+div.all_wrap div.menu_wrap div.menu_box ul.head_menu li {
+    height: 46px;
+}
+div.all_wrap div.menu_wrap div.menu_box ul.head_menu li a {
+    line-height: 46px;
+    font-size: 14px;
+    padding: 0 16px;
+}
+/*Слайдер*/
+div.all_wrap div.slider_wrap div.owl-carousel:after,
+div.all_wrap div.slider_wrap div.owl-carousel:before {
+    width: 0;
+}
+div.all_wrap div.slider_wrap div.owl-carousel div.item div.slide_text {
+    left: 3%;
+}
+div.all_wrap div.slider_wrap div.owl-carousel div.item div.slide_text div.title {
+    font-size: 35px;
+}
+div.all_wrap div.slider_wrap div.owl-carousel div.item div.slide_text div.text {
+    font-size: 16px;
+}

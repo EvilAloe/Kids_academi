@@ -1,0 +1,336 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic';
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*system*/
+.animation_elm {
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*main*/
+div.all_wrap {
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    background: url(../img/modul.png) center center repeat #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #333333;
+}
+div.all_wrap div.head_wrap {
+    width: auto;
+    background: #fff;
+    padding: 15px;
+}
+div.all_wrap div.head_wrap div.head_box{
+    max-width: 1139px;
+    width: 100%;
+    margin: 0 auto;
+    height: 207px;
+}
+div.all_wrap div.head_wrap div.head_box div.logo_wrap {
+    display: inline-block;
+    margin-left: 0;
+    vertical-align: top;
+}
+div.all_wrap div.head_wrap div.head_box div.logo_wrap a.logo{
+    display: block;
+    width: 232px;
+    height: 147px;
+    margin: 29px 39px 0 0;
+    background: url(../img/logo.png) center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-decoration: none;
+    font-size: 0;
+}
+div.all_wrap div.head_wrap div.head_box div.slogan_wrap {
+    margin-left: -0.25em;
+    display: inline-block;
+    vertical-align: top;
+}
+div.all_wrap div.head_wrap div.head_box div.slogan_wrap div.slogan {
+    font-weight: 300;
+    color: #539757;
+    font-size: 28px;
+    height: 73px;
+    padding: 25px 0 0 37px;
+    line-height: 27px;
+    width: 213px;
+    margin: 57px 0 0 0;
+    border-left: 1px solid #539757;
+}
+div.all_wrap div.head_wrap div.head_box div.contacts_wrap {
+    margin-left: -0.25em;
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+}
+div.all_wrap div.head_wrap div.head_box div.contacts_wrap div.contacts_box {
+    width: 260px;
+    text-align: right;
+    margin-top: 45px;
+}
+div.all_wrap div.head_wrap div.head_box div.contacts_wrap div.contacts_box div.phone {
+    font-weight: 300;
+    color: #539757;
+    font-size: 34px;
+    letter-spacing: -1px;
+}
+div.all_wrap div.head_wrap div.head_box div.contacts_wrap div.contacts_box a.maps_link {
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 300;
+    color: #666666;
+    font-size: 18px;
+    padding-bottom: 1px;
+    border-bottom: 1px dashed #666666;
+    margin: 4px 0 11px 0;
+}
+div.all_wrap div.head_wrap div.head_box div.contacts_wrap div.contacts_box a.maps_link:hover {
+    border-bottom: 1px solid #666666;
+}
+div.all_wrap div.head_wrap div.head_box div.contacts_wrap div.contacts_box a.recall_btn {
+    width: 100%;
+    display: block;
+    height: 41px;
+    text-decoration: none;
+    text-align: center;
+    background: #ff6f0d;
+    line-height: 40px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    border-radius: 41px;
+    font-weight: 300;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+div.all_wrap div.head_wrap div.head_box div.contacts_wrap div.contacts_box a.recall_btn:hover {
+    background: #56aa46;
+}
+div.all_wrap div.menu_wrap {
+    width: 100%;
+    height: 75px;
+    background: url(../img/menu_modul.png) center top repeat-x;
+    width: auto;
+    padding: 0 15px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 29px 55px -31px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 29px 55px -31px rgba(0,0,0,1);
+    box-shadow: 0px 29px 55px -31px rgba(0,0,0,1);
+    position: relative;
+    z-index: 20;
+}
+div.all_wrap div.menu_wrap div.menu_box {
+    max-width: 1139px;
+    width: 100%;
+    margin: 0 auto;
+}
+div.all_wrap div.menu_wrap div.menu_box div.show_menu {
+    width: auto;
+    height: 21px;
+    margin-top: 9px;
+    cursor: pointer;
+    background: url(../img/mobile_menu.png) 0 0 no-repeat;
+    display: none;
+}
+div.all_wrap div.menu_wrap div.menu_box ul.head_menu {
+    padding: 0;
+    margin: 0 -40px;
+    text-align: center;
+}
+div.all_wrap div.menu_wrap div.menu_box ul.head_menu li {
+    height: 75px;
+    margin-left: -0.25em;
+    display: inline-block;
+    vertical-align: top;
+}
+div.all_wrap div.menu_wrap div.menu_box ul.head_menu li:first-child {
+    margin-left: 0;
+}
+div.all_wrap div.menu_wrap div.menu_box ul.head_menu li a {
+    display: block;
+    line-height: 75px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    padding: 0 38px;
+    text-decoration: none;
+    background: transparent;
+    white-space: nowrap;
+}
+div.all_wrap div.menu_wrap div.menu_box ul.head_menu li a:hover {
+    background: #305f27;
+}
+/*Слайдер*/
+div.all_wrap div.slider_wrap {
+    width: auto;
+    background: #fff;
+    -webkit-box-shadow: 0px 29px 55px -31px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 29px 55px -31px rgba(0,0,0,1);
+    box-shadow: 0px 29px 55px -31px rgba(0,0,0,1);
+    z-index: 16;
+}
+div.all_wrap div.slider_wrap div.owl-carousel {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+div.all_wrap div.slider_wrap div.owl-carousel:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25px;
+    height: 100%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+63,ffffff+63&1+0,0+100 */
+    background: -moz-linear-gradient(left,  rgba(255,255,255,1) 0%, rgba(255,255,255,0.37) 63%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.37) 63%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.37) 63%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+
+}
+div.all_wrap div.slider_wrap div.owl-carousel:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25px;
+    height: 100%;
+    z-index: 300;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+63,ffffff+63&1+0,0+100 */
+    background: -moz-linear-gradient(left,  rgba(255,255,255,1) 0%, rgba(255,255,255,0.37) 63%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.37) 63%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.37) 63%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -ms-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+div.all_wrap div.slider_wrap div.owl-carousel .owl-nav {
+    display: none;
+}
+div.all_wrap div.slider_wrap div.owl-carousel .owl-dots {
+    position: absolute;
+    left: 0;
+    bottom: 1%;
+    width: 100%;
+    text-align: center;
+}
+div.all_wrap div.slider_wrap div.owl-carousel .owl-dots .owl-dot {
+    width: 7%;
+    height: 4px;
+    padding: 10px 0;
+    display: inline-block;
+    margin: 0 3px;
+}
+div.all_wrap div.slider_wrap div.owl-carousel .owl-dots .owl-dot span {
+    display: block;
+    height: 4px;
+    background: #56aa46;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+div.all_wrap div.slider_wrap div.owl-carousel .owl-dots .owl-dot.active span {
+    background: #ff6f0d;
+}
+div.all_wrap div.slider_wrap div.owl-carousel div.item div.slide_text {
+    position: absolute;
+    top: 27%;
+    left: 80px;
+    width: 57%;
+}
+div.all_wrap div.slider_wrap div.owl-carousel div.item div.slide_text div.title {
+    display: block;
+    text-transform: uppercase;
+    font-size: 47px;
+    font-weight: 300;
+    color: #fff;
+}
+div.all_wrap div.slider_wrap div.owl-carousel div.item div.slide_text div.title p {
+    display: inline;
+    background: #ff6f0d;
+    padding: 0 16px;
+}
+div.all_wrap div.slider_wrap div.owl-carousel div.item div.slide_text div.title span {
+    font-weight: 400;
+}
+div.all_wrap div.slider_wrap div.owl-carousel div.item div.slide_text div.text {
+    display: block;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    padding: 16px;
+}
